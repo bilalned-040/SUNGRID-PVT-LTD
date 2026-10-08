@@ -1,0 +1,715 @@
+{
+  "results": [
+    {
+      "width": 360,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/gallery",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/calculator",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": "25px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/certificates",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/get-a-quote",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": "12px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/gallery",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/calculator",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": "25px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/certificates",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/get-a-quote",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": "12px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 430,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 430,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 430,
+      "route": "/gallery",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 430,
+      "route": "/calculator",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": "25px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 430,
+      "route": "/certificates",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 430,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 430,
+      "route": "/get-a-quote",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "14px",
+      "navFont": "14px",
+      "inputFont": "12px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/gallery",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/calculator",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "14px",
+      "inputFont": "28px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/certificates",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "14px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/get-a-quote",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "14px",
+      "inputFont": "12px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "11px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "11px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/gallery",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "11px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/calculator",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "11px",
+      "inputFont": "26px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/certificates",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "11px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "11px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/get-a-quote",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "11px",
+      "inputFont": "12px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1366,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1366,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1366,
+      "route": "/gallery",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1366,
+      "route": "/calculator",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": "26px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1366,
+      "route": "/certificates",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1366,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1366,
+      "route": "/get-a-quote",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": "12px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/gallery",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/calculator",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": "26px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/certificates",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": null,
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/get-a-quote",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "bodyFont": "15px",
+      "navFont": "12px",
+      "inputFont": "12px",
+      "footer": "rgb(16, 34, 54)",
+      "broken": [
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75",
+        "http://localhost:3000/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=640&q=75"
+      ]
+    }
+  ],
+  "errors": []
+}

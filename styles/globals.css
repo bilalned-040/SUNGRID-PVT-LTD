@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#__next {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.sg-contact-layout > * {
+  min-width: 0;
+}
+
+.sg-contact-details h2 {
+  overflow-wrap: anywhere;
+}
+
+.sg-intro-photo img {
+  object-position: 64% center;
+}
+
+.sg-about-photo img {
+  object-position: 70% center;
+}
