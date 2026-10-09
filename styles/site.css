@@ -764,3 +764,10 @@ h1 .sg-type-text>span:not(.sg-type-char):not(.sg-hero-spark){color:#91a8ff}
 .sg-form-result{padding:18px 20px;font-size:14px;line-height:1.65;border-left:3px solid;margin-top:20px;border-radius:0 7px 7px 0}
 .sg-form-result.is-success{background:#eaf2ec;color:#264c34!important;border-color:#387549}
 .sg-form-result.is-error{background:#fff0ef;color:#7e2424!important;border-color:#b93737}
+
+/* Keep the primary navigation CTA readable through every interaction state. */
+.sg-nav .sg-nav-cta,
+.sg-nav .sg-nav-cta:hover,
+.sg-nav .sg-nav-cta:focus-visible,
+.sg-nav .sg-nav-cta[aria-current='page']{color:#fff!important}
+.sg-nav .sg-nav-cta svg{color:inherit}

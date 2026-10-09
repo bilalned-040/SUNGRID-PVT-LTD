@@ -77,7 +77,7 @@ export default function QuoteForm() {
 
       <div className="sg-form-notice">
         <Icon name="shield" size={20} />
-        <p><strong>Send your requirements to SUNGRID.</strong> Your submission will be processed by Netlify Forms and stored in SUNGRID’s Netlify account.</p>
+        <p><strong>Send your requirements to SUNGRID.</strong> Share a few details and our team will use them to respond to your inquiry.</p>
       </div>
 
       <div className="sg-form-fields">
@@ -121,7 +121,7 @@ export default function QuoteForm() {
         {status === 'error' && <p className="sg-form-result is-error">We could not send your inquiry. Please try again, or contact us by phone, WhatsApp, or email.</p>}
       </div>
 
-      <p className="sg-form-privacy">Your details are submitted through Netlify Forms so SUNGRID can respond to your inquiry.</p>
+      <p className="sg-form-privacy">Your details will be used only to respond to your inquiry.</p>
     </form>
   );
 }
