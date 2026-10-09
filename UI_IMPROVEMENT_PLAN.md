@@ -24,7 +24,7 @@ Read this plan, then begin implementation at phase 1. Do not repeat the full cod
 - `Scroller.jsx`: native horizontal overflow with scroll snapping, touch/trackpad support, keyboard arrows, controls, ResizeObserver, edge disabling, reduced-motion scrolling. Three sections: clients, sample reviews, brands. Keep native scrolling; no autoplay exists.
 - `ImageGallery.jsx`: reusable gallery/certificate grid and native dialog; next/previous, arrow keys, Escape, close button, focus return and body scroll lock. Complete enlarged image uses contain and original file. Empty arrays have useful fallbacks.
 - Calculator: positive decimal text input with inputMode decimal; exact `(monthly / 30 / 4) * 1.10`, two decimals; invalid/too-small/nonfinite handling; result clears on input edit; accessible live result. Do not change calculations or introduce prices/savings/battery sizes.
-- QuoteForm: all four fields required; local validation via `lib/validation.mjs`; errors linked to fields and first invalid field focused. Status resets on edit. No request, logging or persistence. Keep exact demo-not-sent message. Current 12px input text is a readability and mobile focus-zoom concern.
+- QuoteForm: all four fields required; local validation via `lib/validation.mjs`; errors linked to fields and first invalid field focused. The completed production update submits valid inquiries to Netlify Forms, includes a honeypot, and shows success only after an OK response.
 - Assets: manifest generator runs before dev/build; 30 gallery photos, 13 client logos, 20 brand logos, 3 certificate scans. The real project gallery is distinct from decorative featured imagery. Keep gallery authenticity, names and existing labels.
 - Current Projects `data/featured-images.js`: homeHero `/assets/images/home3.jpg`, homeStory `/assets/images/home2.jpg`, About `/assets/images/home1.1.jpg`. Actual dimensions: 910×607, 900×601, 1024×1024 respectively. Hero and About metadata are stale (1024×1024 and 910×607). `home1.jpg` is absent in current Projects folder. **These newer local choices supersede earlier chat mappings.** Do not restore an old mapping silently. User likes people-free solar images; preserve their files and choices.
 - Prior removals must stay removed: hero plaque “Made for your world”, introduction stamp “Since 2011 / Engineering with purpose”, hero caption “Solar energy in action / 01 / ROOFTOP SOLAR”. Gallery preview heading must remain “Our projects, built with care.”
@@ -42,7 +42,7 @@ Read this plan, then begin implementation at phase 1. Do not repeat the full cod
 | Role | Target | Implementation and intended result |
 |---|---|---|
 | Body and service descriptions | 16px desktop/mobile, line-height 1.65–1.75 | More comfortable reading without changing copy; cap prose at 58–66ch |
-| Supporting text/disclaimers | 14px; never below 13px for meaningful information | Sample-review, demo, sizing and certificate notes stay legible |
+| Supporting text/disclaimers | 14px; never below 13px for meaningful information | Sample-review, form, sizing and certificate notes stay legible |
 | Labels, buttons, navigation | 14–16px; weight 600 | Clearly readable actions; 16px inputs on mobile |
 | Eyebrows | 11–12px, tracking .08–.10em | Visual hierarchy without microscopic letters; brand-logo microtagline can remain small |
 | Hero h1 | clamp(36px, 4.6vw, 62px), line-height 1.10–1.15 | Strong headline without dominating entire viewport |
@@ -148,9 +148,9 @@ Menu remains a disclosure, not a modal: no unnecessary focus trap or body lock. 
 
 ## O. Get a Quote — P1
 
-**Weakness:** small inputs, demo/privacy copy 9–11px, comparatively long intro before form.
+**Weakness:** small inputs, privacy copy at 9–11px, comparatively long intro before form.
 **Where:** `pages/get-a-quote.jsx`, `QuoteForm.jsx`, quote/field CSS.
-**How:** shared compact intro; form heading 26px, labels 15–16px, controls 16px with 48–52px height, textarea >=144px. Mobile single column and 20–24px padding; desktop name/phone paired only when each fits. Demo notice 14px with icon, calm background and clear contrast. Error messages 14px, aria-describedby retained; add concise live error summary only if needed after keyboard testing, without announcing every keystroke. Keep exact valid demo message and local-only handling. Direct phone/WhatsApp/email links become 15–16px and generous targets. Button remains labeled as demo validation, not “Send” or false success. No animated input movement; success/error block may fade without stealing focus. Expected: comfortable, honest and trustworthy inquiry experience.
+**How:** shared compact intro; form heading 26px, labels 15–16px, controls 16px with 48–52px height, textarea >=144px. Mobile single column and 20–24px padding; desktop name/phone paired only when each fits. Form notice 14px with icon, calm background and clear contrast. Error messages 14px and `aria-describedby` retained. Direct phone/WhatsApp/email links become 15–16px with generous targets. The submit button reports its loading state, and success appears only after Netlify accepts the request. No animated input movement; success/error blocks may fade without stealing focus. Expected: comfortable, honest and trustworthy inquiry experience.
 
 ## P–R. Shared components and exact file map
 
@@ -194,7 +194,7 @@ High priority: readable typography, navigation fit, useful first viewport, respo
 ## U–V. Accessibility and performance guardrails
 
 - Maintain one h1/page, semantic main/nav/footer/section headings, skip link, active route aria-current, input labels and associated errors, focus-visible outlines. Never use color alone for active/error state.
-- Measure contrast: normal text >=4.5:1, large text >=3:1; focus/control boundaries >=3:1 where applicable. Keep sample/demo notes readable; no opacity fades that make them effectively disappear.
+- Measure contrast: normal text >=4.5:1, large text >=3:1; focus/control boundaries >=3:1 where applicable. Keep sample and form notes readable; no opacity fades that make them effectively disappear.
 - Native dialog keyboard containment/focus restoration must survive style changes. Hidden menu links must be removed from keyboard flow. Test Tab/Shift+Tab and Escape after every menu/viewer edit.
 - Keep descriptions/long email/large results wrapping without arbitrary ellipsis. Test 200% zoom and long input text; no horizontal page scroll.
 - Motion optional, short, reduced-motion aware. No flashing or continuous attention grabbers. No focus movement solely for decoration.
@@ -225,7 +225,7 @@ Earlier redesign passed build/lint, four unit tests, 92 interaction assertions a
 
 Production audit previously reported zero vulnerabilities; full audit showed development-tool transitive braces advisories. Do not run `npm audit fix --force` as part of visual work (it suggested incompatible downgrade). No need to revisit dependency research to implement this plan.
 
-Preserve editorial inconsistency: supplied founding year 2011 and supplied statistic 8+ years; do not invent a corrected statistic. Preserve no-backend/demo form, sample testimonials note, map placeholder, no deployment and no blog restoration. No fake partners, projects, claims or certifications. Do not reintroduce removed image overlays, people photos or “out in the world” copy.
+Preserve editorial inconsistency: supplied founding year 2011 and supplied statistic 8+ years; do not invent a corrected statistic. The quote form now uses Netlify Forms, the Contact page uses the supplied Google Maps embed, and reviews use the supplied static snapshot. Preserve no deployment and no blog restoration. No fake partners, projects, claims or certifications. Do not reintroduce removed image overlays, people photos or “out in the world” copy.
 
 ### Baseline browser evidence — 4 October 2026
 

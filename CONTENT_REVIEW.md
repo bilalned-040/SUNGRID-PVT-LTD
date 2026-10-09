@@ -1,6 +1,6 @@
 # SUNGRID content review — 5 October 2026
 
-Reviewed the seven public pages, shared header/footer/CTAs, SEO descriptions, service copy, statistics, supplied review snapshot, calculator explanations, and demo-form notices.
+Reviewed the seven public pages, shared header/footer/CTAs, SEO descriptions, service copy, statistics, supplied review snapshot, calculator explanations, and quote-form notices.
 
 ## Corrections applied
 
@@ -17,6 +17,6 @@ Reviewed the seven public pages, shared header/footer/CTAs, SEO descriptions, se
 - Confirm the supplied PEC engineer registrations and technical-education statements against current supporting records. These are individual/team claims, not company accreditation claims.
 - Confirm client logos, brand-use associations, and image-use permissions. Asset presence alone does not establish permission or endorsement.
 - Actual geographic service coverage remains unspecified; add it only when confirmed by the business.
-- The inquiry form still validates locally only. Reviews come from a supplied static snapshot rather than a live API, and the Contact page uses the provided Google Maps embed.
+- The inquiry form uses Netlify Forms. Confirm the notification recipient and run a real production submission after deployment. Reviews come from a supplied static snapshot rather than a live API, and the Contact page uses the provided Google Maps embed.
 
 This is an editorial/source review, not independent verification of business records. No deployment was performed.

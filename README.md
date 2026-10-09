@@ -1,6 +1,6 @@
 # SUNGRID website
 
-The public website for SUNGRID (Pvt) Ltd., built with the Next.js Pages Router. It includes the company pages, project gallery, certificate viewer, solar system calculator, and a locally validated demo inquiry form.
+The public website for SUNGRID (Pvt) Ltd., built with the Next.js Pages Router. It includes the company pages, project gallery, certificate viewer, solar system calculator, and a quote form integrated with Netlify Forms.
 
 ## Local development
 
@@ -28,4 +28,4 @@ npm test
 npm run build
 ```
 
-The quote form is intentionally presented as a demo and does not submit or persist inquiry data. The review section renders a supplied static snapshot of Google reviews and is not live-synced. The Contact page uses the provided Google Maps embed.
+The quote form posts to the Netlify form named `quote-inquiry`. Netlify form detection must be enabled for the site, and email notifications are configured in the Netlify dashboard after the first production deploy. The review section renders a supplied static snapshot of Google reviews and is not live-synced. The Contact page uses the provided Google Maps embed.

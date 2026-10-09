@@ -1,7 +1,7 @@
 export const site = {
   name: 'SUNGRID (Pvt) Ltd.',
-  url: 'https://sun-grid.com',
-  email: 'info@sun-grid.com',
+  url: 'https://sungrid.com.pk',
+  email: 'info@sungrid.com.pk',
   address: 'Shop # 1, BS - 9, Merchant Navy Officers CHS, Scheme # 33, Karachi, Pakistan.',
   phones: [
     { label: '+92 333 0219710', tel: '+923330219710', whatsapp: 'https://wa.me/923330219710' },
